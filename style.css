@@ -532,6 +532,9 @@ padding-top: 20px;
     color: darkred;
 }
 
+.fa{
+    padding-left: 12px;
+}
 
 
 
@@ -558,6 +561,8 @@ padding-top: 20px;
     }
 
 }
+
+
 
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
