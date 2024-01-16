@@ -1,5 +1,3 @@
-// defer attribute makes excution easy and at run time with js.
-
 const registerButton = document.getElementById("registerButton");
 const loginButton = document.getElementById("loginButton");
 
@@ -15,20 +13,3 @@ loginButton.addEventListener("click", function() {
     loginButton.style.display = "none";
     logoutButton.style.display = "inline-block";
 });
-
-
-
-// const loginButton = document.getElementById("loginButton");
-// const logoutButton = document.getElementById("logoutButton");
-
-// loginButton.addEventListener("click", function() {
-//     alert("Login successful!"); // You can replace this with your actual login logic
-//     loginButton.style.display = "none";
-//     logoutButton.style.display = "inline-block";
-// });
-
-// logoutButton.addEventListener("click", function() {
-//     alert("Logout successful!"); // You can replace this with your actual logout logic
-//     loginButton.style.display = "inline-block";
-//     logoutButton.style.display = "none";
-// });
